@@ -1,0 +1,19 @@
+{
+  "name": "scm-ui",
+  "version": "0.0.1",
+  "description": "scm 配置项目管理",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "scm",
+    "react",
+    "validate"
+  ],
+  "author": "liuqichao",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

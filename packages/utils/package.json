@@ -1,0 +1,24 @@
+{
+  "name": "@scm/utils",
+  "version": "0.0.1",
+  "description": "validate form table data save",
+  "keywords": [
+    "validate.js"
+  ],
+  "author": "liuqichao <liuqichao@sinotrans.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://repository.i.sinotrans.com/repository/sinotrans-npm/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
