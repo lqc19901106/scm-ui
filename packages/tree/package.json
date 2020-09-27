@@ -1,0 +1,25 @@
+{
+  "name": "@scm/tree",
+  "version": "0.0.1",
+  "description": "tree ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "tree",
+    "component"
+  ],
+  "author": "liuqichao <lqc19901106@163.com>",
+  "homepage": "",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+}
