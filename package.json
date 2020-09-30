@@ -4,7 +4,8 @@
   "description": "scm 配置项目管理",
   "main": "index.js",
   "scripts": {
-    "start": "test"
+    "start": "test",
+    "create": "tsc --init"
   },
   "keywords": [
     "scm",
@@ -14,6 +15,20 @@
   "author": "liuqichao",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^3.22.1"
-  }
+    "lerna": "^3.22.1",
+    "typescript": "^4.0.3"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lqc19901106/scm-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lqc19901106/scm-ui/issues"
+  },
+  "homepage": "https://github.com/lqc19901106/scm-ui#readme"
 }
