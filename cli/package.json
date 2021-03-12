@@ -1,0 +1,20 @@
+{
+  "name": "fusion-cli",
+  "version": "0.0.1",
+  "description": "fusion create typescript es6 project",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "typescirpt",
+    "es6",
+    "rollup",
+    "webpack",
+    "gulpjs",
+    "gruntjs",
+    "babel"
+  ],
+  "author": "liuqichao",
+  "license": "MIT"
+}

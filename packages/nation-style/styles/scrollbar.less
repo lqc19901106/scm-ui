@@ -1,0 +1,28 @@
+@scrollbarColor: #f5f5f5;
+@scrollThumbColor: rgba(5, 5, 5, 0.3);
+.scrollbar {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: @scrollbarColor;
+  } /* 整体样式 */
+  &::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: @scrollbarColor;
+  } /* 轨道 */
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: @scrollThumbColor;
+  } /* 滑块 */
+  &::-webkit-scrollbar-button {
+    background-color: @scrollbarColor;
+    height: 0;
+    width: 0;
+  } /* 两端小方块 */
+  &::-webkit-scrollbar-track-piece {
+    background-color: @scrollbarColor;
+  } /* 不包含滑块的轨道区 */
+  &::-webkit-scrollbar-corner {
+    background-color: @scrollbarColor;
+  } /* 两端小方块交汇处 */
+}

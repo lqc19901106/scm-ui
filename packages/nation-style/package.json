@@ -1,0 +1,21 @@
+{
+  "name": "@fusion/nation",
+  "version": "0.0.1",
+  "description": "normallize.css loading icons scrollbar",
+  "main": "index.css",
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": [
+    "normallize"
+  ],
+  "author": "liuqichao",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1"
+  }
+}

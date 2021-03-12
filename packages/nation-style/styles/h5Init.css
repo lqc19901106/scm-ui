@@ -1,0 +1,19 @@
+a,
+span,
+button {
+   /* 去除 a标签点击出现透明背景： */
+  -webkit-tap-highlight-color: transparent;
+   /* 关闭 a标签系统自动菜单： */
+  -webkit-touch-callout: none;
+   /* 关闭双击选择文本： */
+  -webkit-user-select: none;
+}
+div,
+content,
+datalist,
+ul,
+ol,
+table,
+section {
+  -webkit-overflow-scrolling: touch;
+}
